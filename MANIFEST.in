@@ -1,0 +1,4 @@
+graft nationstates/templates
+graft nationstates/migrations
+
+global-exclude *.pyc __pycache__ .keep
