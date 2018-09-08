@@ -1,0 +1,38 @@
+<fieldset style="
+    border: 1px solid #ccc;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom: 1em;
+    color: #333;
+    background-color: #f9f9f9;
+
+    border-top: 3px #ccc solid;
+    border-bottom: 3px #ccc solid;
+    font-size: 90%;
+    margin-right: 5%;
+    word-break: break-word;
+    border-radius: 8px;
+    line-height: 1.4em;
+    margin-left: 1%;
+
+    margin-bottom: 10px;
+    padding-top: 0.35em;
+">
+    <legend style="
+        font-weight: 700;
+        padding: 0 1em;
+        font-size: 90%;
+        font-style: italic;
+        border: 0;
+        background-color: transparent;
+        width: auto;
+        margin-bottom: 0;
+    ">
+        <a target="_blank" href="https://www.nationstates.net/nation={{ author }}">
+            <span>{{ author.replace('_', ' ').title() }}</span></a> wrote:
+    </legend>
+    <a target="_blank" href="https://www.nationstates.net/page=display_region_rmb/postid={{ post_id }}#p{{ post_id }}">
+        <img style="float: right;" src="https://www.nationstates.net/images/externallink.gif">
+    </a>
+    {{ text }}
+</fieldset>
